@@ -12,13 +12,17 @@ struct CovidData: Codable {
     
     
     let country: String
-    let countryInfo: Countryinfo
+    let countryInfo: CountryInfo
     let cases: Int
     let deaths: Int
     let recovered: Int
+   
 }
 
-struct Countryinfo: Codable {
-    
-    let flag: Data
+struct CountryInfo: Codable {
+   let flag: String
 }
+
+
+
+

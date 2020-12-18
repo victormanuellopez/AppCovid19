@@ -11,6 +11,7 @@ import Foundation
 struct CovidModelo {
     
     let nombrePais: String
+    let imagenpais: String
     let totalCasos: Int
     let totalRecuperados: Int
     let totalMuertos: Int
